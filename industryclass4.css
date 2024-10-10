@@ -1,0 +1,226 @@
+body{
+    /* width: 100%; */
+    /* height: 100rem; */
+    margin: 0;
+    padding: 0;
+    border: solid yellow 2px;
+    /* position: relative; */
+}
+*{
+    box-sizing: border-box;
+}
+/* .container{
+    width: 100%;
+    height: ;
+    display: flex;
+    flex-wrap: wrap; */
+    /* position: relative;
+ border: solid 2px red;
+ } */
+                            /* for header */
+ .header {
+    position: relative;
+    background: #dfdfda;
+    box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
+    z-index: 997;
+    padding: 15px 0;
+    /* border: #353534 solid 1px; */
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+/* .contanierdiv{
+    width: 100%;
+    top:30%;
+    height: 20%;
+
+    border: solid #eb1a1a 2px;
+    position: relative;
+
+} */
+/* .portfolio{
+font-family: 'Times New Roman', Times, serif;
+width: 100%;
+  height: 20%;
+  margin-top: 8%;
+  position: absolute;
+    border: solid #eb1a1a 2px;
+    position: relative;
+}*/
+/* .fixcontent{
+margin-left: 40%;
+}  */
+
+                                    /* for images  */
+/* .imagescontanier{
+    width: 100%;
+    height: ;
+    position: relative;
+    display: flex;
+
+border: solid  rgb(50, 50, 205) 2px;
+} */
+.portfolio{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+      height: 22%;
+      margin-top: 9.5%;
+      position: absolute;
+        border: solid #eb1a1a 2px;
+    }
+    .fixcontent{
+
+    margin-left: 40%;
+    }
+    
+.img-use{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    display: block;
+    backface-visibility: hidden;
+}
+.internalbox{
+    opacity: 0;
+    height: 10%;
+    width: 100%;
+    font-size: x-large;
+    position: absolute;
+bottom: 25px;
+left:50px;
+
+}
+.animation-box{
+    display: flex;
+    flex: 30%;
+}
+
+ .box-1{
+     height: 50%;
+     width: 30%;
+     top: 43%;
+     left: 25px;
+     position:absolute;
+     overflow: hidden;
+ }
+ 
+ .box-2{
+ position: absolute;
+ width: 30%;
+ height: 40%;
+ top:43%;
+ left: 35%;
+ overflow: hidden;
+ }
+
+.box-3{
+    position: absolute;
+    width:30%;
+    height: 40%;
+    top: 43%;
+    left: 68%;
+    overflow: hidden;
+  
+    
+    }
+.box-4{
+    position: absolute;
+/* opacity: 1; */
+    width: 30%;
+    height:80%;
+    top: 98%;
+    left: 25px;
+    overflow: hidden;
+}
+.box-5{
+    position: absolute;
+/* opacity: 0; */
+    width: 30%;
+    height:65%;
+    top: 90%;
+    left: 35%;
+    overflow: hidden;
+}
+.box-6{
+    position: absolute;
+        width: 30%;
+        height:40%;
+        top: 88%;
+        left: 68%;
+        overflow: hidden;
+}
+.box-7{
+    position: absolute;
+    width: 30%;
+    height:40%;
+    top: 133%;
+    left: 68%;
+    overflow: hidden;
+}
+.box-8{
+    position: absolute;
+        width: 30%;
+        height:40%;
+        top: 160%;
+        left: 35%;
+        overflow: hidden;
+}
+.box-9{
+    position: absolute;
+    width: 30%;
+    height:40%;
+    top: 178%;
+    left: 68%;
+    overflow: hidden;
+}
+.footerdiv{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    background: #e9e8e6;
+    padding: 30px 0;
+    color: #0a0a0a;
+    font-size: 20px;
+    text-align: center;
+    top: 220%;
+    border: #0a0a0a solid 2px;
+    /* margin-top: 15px; */
+
+}
+/* .img-use:hover{
+   transform: scale(1.2);
+   transition: 1.ms all ease-in-out;
+} */
+.animation-box:hover .internalbox{
+    transform: scale(1.2);
+    opacity: 1;
+    transition: 1.5s all ease-in-out;
+    width: 98%;
+}
+.animation-box:hover .img-use {
+    transform: scale(1.2);
+    opacity: 0.3;
+}
+.img-use:hover{
+    opacity: 0.3;
+   transform: scale(1.2);
+   transition: 1.ms all ease-in-out;
+}
+
+@media screen and (max-width:1000px){
+    .animation-box{
+        width:30%;
+    }
+}
+@media screen and (max-width:770px){
+   .animation-box,.portfolio{
+        width: 60%;
+    }
+}
+/* @media screen and (max-width:){
+    
+} */
